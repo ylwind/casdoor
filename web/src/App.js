@@ -31,7 +31,7 @@ import SamlCallback from "./auth/SamlCallback";
 import i18next from "i18next";
 import {withTranslation} from "react-i18next";
 const ManagementPage = lazy(() => import("./ManagementPage"));
-const {Footer, Content} = Layout;
+const {Content} = Layout;
 
 import {setTwoToneColor} from "@ant-design/icons";
 import * as ApplicationBackend from "./backend/ApplicationBackend";
